@@ -1,0 +1,541 @@
+split,source,behavior,source_label,crop_file,animal_id,site,camera,timestamp_unix
+val,MmCows,Lying,Lying,ID8+cam_3+1690333991_20-13-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690333991
+val,MmCows,Walking,Walking,ID1+cam_1+1690296401_09-46-41.jpg,cow_1,MmCows (UW-Madison Arlington),cam_1,1690296401
+val,MmCows,Eating head down,Feeding head down,ID1+cam_3+1690290416_08-06-56.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690290416
+val,MmCows,Drinking,Drinking,ID4+cam_2+1690336961_21-02-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690336961
+val,MmCows,Standing,Standing,ID8+cam_3+1690314506_14-48-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690314506
+val,MmCows,Drinking,Drinking,ID4+cam_2+1690306706_12-38-26.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690306706
+val,MmCows,Eating head up,Feeding head up,ID13+cam_4+1690327871_18-31-11.jpg,cow_13,MmCows (UW-Madison Arlington),cam_4,1690327871
+val,MmCows,Drinking,Drinking,ID12+cam_4+1690297586_10-06-26.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690297586
+val,MmCows,Lying,Lying,ID5+cam_2+1690283621_06-13-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_2,1690283621
+val,PlayBehavior,Leap,leap,pb_ab180c7e.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Lying,Lying,ID11+cam_4+1690322186_16-56-26.jpg,cow_11,MmCows (UW-Madison Arlington),cam_4,1690322186
+val,MmCows,Eating head down,Feeding head down,ID7+cam_3+1690285331_06-42-11.jpg,cow_7,MmCows (UW-Madison Arlington),cam_3,1690285331
+val,MmCows,Eating head down,Feeding head down,ID5+cam_4+1690272506_03-08-26.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690272506
+val,MmCows,Eating head up,Feeding head up,ID12+cam_4+1690273556_03-25-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690273556
+val,PlayBehavior,Leap,leap,pb_d261130d.jpg,site_3_calf_2,site_3,ch01,
+val,MmCows,Drinking,Drinking,ID10+cam_4+1690314446_14-47-26.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690314446
+val,PlayBehavior,Leap,leap,pb_4b1055e1.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690274711_03-45-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690274711
+val,MmCows,Drinking,Drinking,ID8+cam_2+1690335446_20-37-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690335446
+val,MmCows,Drinking,Drinking,ID8+cam_1+1690343051_22-44-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_1,1690343051
+val,PlayBehavior,Leap,leap,pb_8b8ba84f.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_62fe60f8.jpg,site_3_calf_2,site_3,ch01,
+val,MmCows,Eating head down,Feeding head down,ID16+cam_3+1690313951_14-39-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690313951
+val,PlayBehavior,Gallop,gallop,pb_0beb9779.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_31620c33.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_f4e17639.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Gallop,gallop,pb_00cfe698.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_fc7bc6f4.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID9+cam_3+1690272206_03-03-26.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690272206
+val,MmCows,Drinking,Drinking,ID9+cam_3+1690272161_03-02-41.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690272161
+val,MmCows,Walking,Walking,ID8+cam_4+1690343651_22-54-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690343651
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_98b427c9.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID2+cam_3+1690291541_08-25-41.jpg,cow_2,MmCows (UW-Madison Arlington),cam_3,1690291541
+val,PlayBehavior,Leap,leap,pb_1b3e8510.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_a163e984.jpg,site_3_calf_2,site_3,ch01,
+val,MmCows,Standing,Standing,ID4+cam_2+1690339871_21-51-11.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690339871
+val,MmCows,Eating head up,Feeding head up,ID13+cam_2+1690327481_18-24-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_2,1690327481
+val,MmCows,Standing,Standing,ID16+cam_2+1690339151_21-39-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_2,1690339151
+val,MmCows,Walking,Walking,ID13+cam_1+1690272656_03-10-56.jpg,cow_13,MmCows (UW-Madison Arlington),cam_1,1690272656
+val,MmCows,Eating head down,Feeding head down,ID12+cam_3+1690342931_22-42-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690342931
+val,MmCows,Eating head up,Feeding head up,ID5+cam_4+1690275656_04-00-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690275656
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690289156_07-45-56.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690289156
+val,MmCows,Standing,Standing,ID1+cam_4+1690323461_17-17-41.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690323461
+val,MmCows,Standing,Standing,ID12+cam_2+1690310051_13-34-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690310051
+val,PlayBehavior,Gallop,gallop,pb_9e0cf40e.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Eating head up,Feeding head up,ID1+cam_3+1690323686_17-21-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690323686
+val,PlayBehavior,Gallop,gallop,pb_32c993a2.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Lying,Lying,ID5+cam_2+1690334201_20-16-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_2,1690334201
+val,MmCows,Standing,Standing,ID5+cam_4+1690297496_10-04-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690297496
+val,MmCows,Drinking,Drinking,ID1+cam_4+1690272686_03-11-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690272686
+val,PlayBehavior,Gallop,gallop,pb_769d677a.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Drinking,Drinking,ID1+cam_4+1690272836_03-13-56.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690272836
+val,PlayBehavior,Gallop,gallop,pb_2c083a63.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_1cbd416e.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID12+cam_2+1690320716_16-31-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690320716
+val,MmCows,Eating head up,Feeding head up,ID4+cam_3+1690286336_06-58-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690286336
+val,MmCows,Eating head down,Feeding head down,ID12+cam_4+1690275971_04-06-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690275971
+val,MmCows,Standing,Standing,ID5+cam_4+1690279601_05-06-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690279601
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_4fa5412c.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_6a08957e.jpg,site_3_calf_3,site_3,ch01,
+val,PlayBehavior,Leap,leap,pb_b894164a.jpg,site_3_calf_2,site_3,ch01,
+val,MmCows,Drinking,Drinking,ID3+cam_1+1690281626_05-40-26.jpg,cow_3,MmCows (UW-Madison Arlington),cam_1,1690281626
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_f6087518.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID13+cam_2+1690273571_03-26-11.jpg,cow_13,MmCows (UW-Madison Arlington),cam_2,1690273571
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_b5f04531.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID1+cam_4+1690319486_16-11-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690319486
+val,MmCows,Eating head up,Feeding head up,ID13+cam_4+1690274006_03-33-26.jpg,cow_13,MmCows (UW-Madison Arlington),cam_4,1690274006
+val,MmCows,Standing,Standing,ID4+cam_1+1690312796_14-19-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_1,1690312796
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_c79b1da2.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Gallop,gallop,pb_ac5be26e.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Standing,Standing,ID14+cam_4+1690313951_14-39-11.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690313951
+val,MmCows,Eating head up,Feeding head up,ID5+cam_3+1690322471_17-01-11.jpg,cow_5,MmCows (UW-Madison Arlington),cam_3,1690322471
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_8b2ebfbd.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID3+cam_3+1690326386_18-06-26.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690326386
+val,MmCows,Eating head up,Feeding head up,ID4+cam_3+1690326596_18-09-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690326596
+val,MmCows,Walking,Walking,ID6+cam_4+1690277321_04-28-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690277321
+val,PlayBehavior,Gallop,gallop,pb_f69750c6.jpg,site_4_calf_1,site_4,ch01,
+val,PlayBehavior,Gallop,gallop,pb_132e0c31.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_dc3902ab.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Walking,Walking,ID13+cam_1+1690325171_17-46-11.jpg,cow_13,MmCows (UW-Madison Arlington),cam_1,1690325171
+val,MmCows,Walking,Walking,ID6+cam_3+1690312046_14-07-26.jpg,cow_6,MmCows (UW-Madison Arlington),cam_3,1690312046
+val,MmCows,Standing,Standing,ID12+cam_2+1690293536_08-58-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690293536
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690324301_17-31-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690324301
+val,MmCows,Lying,Lying,ID13+cam_2+1690307381_12-49-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_2,1690307381
+val,MmCows,Walking,Walking,ID9+cam_2+1690311476_13-57-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_2,1690311476
+val,PlayBehavior,Gallop,gallop,pb_565772d1.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_47fa39f5.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_a8e67529.jpg,site_3_calf_3,site_3,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_dd648309.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_16ffd673.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_94173d28.jpg,site_3_calf_2,site_3,ch01,
+val,PlayBehavior,Gallop,gallop,pb_30fbe5c0.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID8+cam_2+1690322276_16-57-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690322276
+val,MmCows,Drinking,Drinking,ID15+cam_4+1690308851_13-14-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690308851
+val,PlayBehavior,Gallop,gallop,pb_f7e68565.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_f5b08d0f.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID12+cam_3+1690298336_10-18-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690298336
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_9cef62c7.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Walking,Walking,ID3+cam_4+1690296266_09-44-26.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690296266
+val,MmCows,Eating head down,Feeding head down,ID3+cam_4+1690291331_08-22-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690291331
+val,PlayBehavior,Gallop,gallop,pb_2b3b3828.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Leap,leap,pb_6793b40e.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID8+cam_4+1690293896_09-04-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690293896
+val,MmCows,Standing,Standing,ID11+cam_3+1690295141_09-25-41.jpg,cow_11,MmCows (UW-Madison Arlington),cam_3,1690295141
+val,MmCows,Standing,Standing,ID9+cam_2+1690283441_06-10-41.jpg,cow_9,MmCows (UW-Madison Arlington),cam_2,1690283441
+val,MmCows,Standing,Standing,ID5+cam_4+1690281716_05-41-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690281716
+val,MmCows,Eating head up,Feeding head up,ID3+cam_1+1690291241_08-20-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_1,1690291241
+val,MmCows,Standing,Standing,ID12+cam_1+1690331951_19-39-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690331951
+val,MmCows,Eating head down,Feeding head down,ID9+cam_4+1690288166_07-29-26.jpg,cow_9,MmCows (UW-Madison Arlington),cam_4,1690288166
+val,MmCows,Eating head down,Feeding head down,ID5+cam_4+1690272596_03-09-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690272596
+val,MmCows,Standing,Standing,ID2+cam_1+1690281626_05-40-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_1,1690281626
+val,MmCows,Standing,Standing,ID7+cam_2+1690330316_19-11-56.jpg,cow_7,MmCows (UW-Madison Arlington),cam_2,1690330316
+val,MmCows,Walking,Walking,ID1+cam_2+1690322786_17-06-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_2,1690322786
+val,MmCows,Lying,Lying,ID9+cam_4+1690275806_04-03-26.jpg,cow_9,MmCows (UW-Madison Arlington),cam_4,1690275806
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_365c86a6.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Lying,Lying,ID1+cam_4+1690286741_07-05-41.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690286741
+val,MmCows,Standing,Standing,ID4+cam_4+1690283741_06-15-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690283741
+val,PlayBehavior,Leap,leap,pb_81924b15.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690292876_08-47-56.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690292876
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_a4f28cb2.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID12+cam_1+1690306451_12-34-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690306451
+val,MmCows,Lying,Lying,ID12+cam_1+1690305776_12-22-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690305776
+val,MmCows,Eating head down,Feeding head down,ID2+cam_3+1690309871_13-31-11.jpg,cow_2,MmCows (UW-Madison Arlington),cam_3,1690309871
+val,PlayBehavior,Gallop,gallop,pb_bf46f409.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Gallop,gallop,pb_db62d78f.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Eating head down,Feeding head down,ID15+cam_4+1690310561_13-42-41.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690310561
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_80f4e5a1.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_f039150b.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID1+cam_2+1690333226_20-00-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_2,1690333226
+val,MmCows,Eating head down,Feeding head down,ID9+cam_3+1690304351_11-59-11.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690304351
+val,MmCows,Standing,Standing,ID2+cam_1+1690322951_17-09-11.jpg,cow_2,MmCows (UW-Madison Arlington),cam_1,1690322951
+val,MmCows,Standing,Standing,ID11+cam_4+1690320236_16-23-56.jpg,cow_11,MmCows (UW-Madison Arlington),cam_4,1690320236
+val,MmCows,Eating head up,Feeding head up,ID4+cam_4+1690286756_07-05-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690286756
+val,MmCows,Eating head down,Feeding head down,ID6+cam_3+1690310141_13-35-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_3,1690310141
+val,MmCows,Eating head up,Feeding head up,ID4+cam_4+1690326881_18-14-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690326881
+val,MmCows,Eating head up,Feeding head up,ID3+cam_3+1690342226_22-30-26.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690342226
+val,MmCows,Eating head up,Feeding head up,ID12+cam_3+1690310891_13-48-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690310891
+val,MmCows,Drinking,Drinking,ID9+cam_1+1690319306_16-08-26.jpg,cow_9,MmCows (UW-Madison Arlington),cam_1,1690319306
+val,MmCows,Eating head up,Feeding head up,ID16+cam_3+1690291646_08-27-26.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690291646
+val,MmCows,Drinking,Drinking,ID6+cam_2+1690279796_05-09-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_2,1690279796
+val,PlayBehavior,Gallop,gallop,pb_b680e99d.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_211a644d.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Walking,Walking,ID10+cam_4+1690328201_18-36-41.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690328201
+val,MmCows,Walking,Walking,ID1+cam_4+1690279466_05-04-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690279466
+val,MmCows,Lying,Lying,ID1+cam_3+1690314461_14-47-41.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690314461
+val,MmCows,Eating head up,Feeding head up,ID1+cam_4+1690295756_09-35-56.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690295756
+val,PlayBehavior,Gallop,gallop,pb_e206c9f6.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID9+cam_3+1690310516_13-41-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690310516
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_c6e13fed.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Walking,Walking,ID5+cam_2+1690289426_07-50-26.jpg,cow_5,MmCows (UW-Madison Arlington),cam_2,1690289426
+val,MmCows,Walking,Walking,ID12+cam_1+1690312121_14-08-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690312121
+val,MmCows,Eating head down,Feeding head down,ID16+cam_4+1690332206_19-43-26.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690332206
+val,MmCows,Walking,Walking,ID13+cam_2+1690319321_16-08-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_2,1690319321
+val,PlayBehavior,Gallop,gallop,pb_fd06e2c3.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Walking,Walking,ID6+cam_1+1690336076_20-47-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_1,1690336076
+val,PlayBehavior,Gallop,gallop,pb_b10a796c.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID7+cam_3+1690316156_15-15-56.jpg,cow_7,MmCows (UW-Madison Arlington),cam_3,1690316156
+val,MmCows,Standing,Standing,ID8+cam_4+1690342856_22-40-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690342856
+val,MmCows,Lying,Lying,ID14+cam_3+1690311251_13-54-11.jpg,cow_14,MmCows (UW-Madison Arlington),cam_3,1690311251
+val,MmCows,Drinking,Drinking,ID4+cam_4+1690308011_13-00-11.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690308011
+val,MmCows,Eating head down,Feeding head down,ID10+cam_4+1690314011_14-40-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690314011
+val,MmCows,Drinking,Drinking,ID6+cam_4+1690312106_14-08-26.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690312106
+val,MmCows,Drinking,Drinking,ID8+cam_2+1690343141_22-45-41.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690343141
+val,MmCows,Eating head up,Feeding head up,ID4+cam_4+1690316516_15-21-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690316516
+val,MmCows,Eating head up,Feeding head up,ID6+cam_4+1690284941_06-35-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690284941
+val,MmCows,Drinking,Drinking,ID13+cam_4+1690327331_18-22-11.jpg,cow_13,MmCows (UW-Madison Arlington),cam_4,1690327331
+val,PlayBehavior,Gallop,gallop,pb_6629037e.jpg,site_4_calf_1,site_4,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_1bb56158.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID3+cam_1+1690320041_16-20-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_1,1690320041
+val,PlayBehavior,Leap,leap,pb_09dd5c5c.jpg,site_3_calf_2,site_3,ch01,
+val,PlayBehavior,Leap,leap,pb_bd4f527f.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID9+cam_3+1690305476_12-17-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690305476
+val,MmCows,Eating head down,Feeding head down,ID4+cam_3+1690328681_18-44-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690328681
+val,MmCows,Drinking,Drinking,ID1+cam_2+1690290686_08-11-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_2,1690290686
+val,MmCows,Drinking,Drinking,ID10+cam_4+1690275671_04-01-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690275671
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690335191_20-33-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690335191
+val,PlayBehavior,Gallop,gallop,pb_f30087dc.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_e526933f.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Gallop,gallop,pb_c7f828dc.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_bf7e301b.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Walking,Walking,ID8+cam_4+1690302626_11-30-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690302626
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_d822e154.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Standing,Standing,ID10+cam_1+1690304651_12-04-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690304651
+val,PlayBehavior,Gallop,gallop,pb_3c75fd9c.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Walking,Walking,ID12+cam_1+1690273151_03-19-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690273151
+val,MmCows,Walking,Walking,ID7+cam_3+1690281581_05-39-41.jpg,cow_7,MmCows (UW-Madison Arlington),cam_3,1690281581
+val,MmCows,Eating head down,Feeding head down,ID13+cam_3+1690325321_17-48-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_3,1690325321
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_a36d9c1d.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_4985cabf.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID3+cam_3+1690324061_17-27-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690324061
+val,MmCows,Eating head up,Feeding head up,ID7+cam_4+1690345751_23-29-11.jpg,cow_7,MmCows (UW-Madison Arlington),cam_4,1690345751
+val,MmCows,Lying,Lying,ID15+cam_3+1690305236_12-13-56.jpg,cow_15,MmCows (UW-Madison Arlington),cam_3,1690305236
+val,PlayBehavior,Leap,leap,pb_159301a6.jpg,site_3_calf_3,site_3,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_df33f764.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Walking,Walking,ID16+cam_4+1690292381_08-39-41.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690292381
+val,MmCows,Lying,Lying,ID5+cam_1+1690334561_20-22-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_1,1690334561
+val,PlayBehavior,Gallop,gallop,pb_fcbb538a.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_23263d7c.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID4+cam_3+1690342766_22-39-26.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690342766
+val,MmCows,Walking,Walking,ID8+cam_3+1690335506_20-38-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690335506
+val,MmCows,Lying,Lying,ID2+cam_2+1690342736_22-38-56.jpg,cow_2,MmCows (UW-Madison Arlington),cam_2,1690342736
+val,PlayBehavior,Gallop,gallop,pb_b6685338.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_65151c0b.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Walking,Walking,ID6+cam_3+1690305116_12-11-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_3,1690305116
+val,MmCows,Eating head up,Feeding head up,ID9+cam_4+1690287956_07-25-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_4,1690287956
+val,PlayBehavior,Leap,leap,pb_801d9f75.jpg,site_5_calf_1,site_5,ch01,
+val,MmCows,Standing,Standing,ID6+cam_4+1690281701_05-41-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690281701
+val,MmCows,Eating head down,Feeding head down,ID15+cam_4+1690290671_08-11-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690290671
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_6e83e41a.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID12+cam_2+1690288661_07-37-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690288661
+val,PlayBehavior,Leap,leap,pb_9e813b79.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_87db8bf6.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Leap,leap,pb_a9795554.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_aac1ddea.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_e7ec0f05.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID2+cam_3+1690346231_23-37-11.jpg,cow_2,MmCows (UW-Madison Arlington),cam_3,1690346231
+val,MmCows,Walking,Walking,ID3+cam_2+1690277351_04-29-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_2,1690277351
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_b1333518.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID8+cam_4+1690274081_03-34-41.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690274081
+val,MmCows,Standing,Standing,ID4+cam_2+1690307036_12-43-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690307036
+val,MmCows,Eating head down,Feeding head down,ID14+cam_4+1690328411_18-40-11.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690328411
+val,MmCows,Eating head down,Feeding head down,ID8+cam_3+1690290296_08-04-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690290296
+val,MmCows,Eating head down,Feeding head down,ID8+cam_1+1690336136_20-48-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_1,1690336136
+val,MmCows,Lying,Lying,ID7+cam_3+1690273076_03-17-56.jpg,cow_7,MmCows (UW-Madison Arlington),cam_3,1690273076
+val,MmCows,Lying,Lying,ID3+cam_2+1690308551_13-09-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_2,1690308551
+val,PlayBehavior,Gallop,gallop,pb_f4fe5464.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Gallop,gallop,pb_ecd57c2b.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Leap,leap,pb_deef3675.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Walking,Walking,ID12+cam_2+1690343576_22-52-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690343576
+val,MmCows,Walking,Walking,ID9+cam_3+1690335806_20-43-26.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690335806
+val,PlayBehavior,Leap,leap,pb_dede90a4.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Walking,Walking,ID8+cam_2+1690290611_08-10-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690290611
+val,MmCows,Lying,Lying,ID4+cam_2+1690293776_09-02-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690293776
+val,PlayBehavior,Gallop,gallop,pb_3820086f.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID16+cam_2+1690341101_22-11-41.jpg,cow_16,MmCows (UW-Madison Arlington),cam_2,1690341101
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_5e1756cc.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID14+cam_3+1690295531_09-32-11.jpg,cow_14,MmCows (UW-Madison Arlington),cam_3,1690295531
+val,MmCows,Eating head down,Feeding head down,ID14+cam_4+1690307681_12-54-41.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690307681
+val,MmCows,Eating head up,Feeding head up,ID6+cam_4+1690333301_20-01-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690333301
+val,PlayBehavior,Gallop,gallop,pb_91a78774.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690289606_07-53-26.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690289606
+val,PlayBehavior,Gallop,gallop,pb_893f97a0.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID8+cam_1+1690330256_19-10-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_1,1690330256
+val,MmCows,Eating head up,Feeding head up,ID5+cam_4+1690314866_14-54-26.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690314866
+val,MmCows,Eating head down,Feeding head down,ID9+cam_3+1690336181_20-49-41.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690336181
+val,MmCows,Walking,Walking,ID13+cam_1+1690290761_08-12-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_1,1690290761
+val,MmCows,Standing,Standing,ID1+cam_3+1690275596_03-59-56.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690275596
+val,MmCows,Walking,Walking,ID14+cam_1+1690327331_18-22-11.jpg,cow_14,MmCows (UW-Madison Arlington),cam_1,1690327331
+val,MmCows,Lying,Lying,ID4+cam_2+1690332116_19-41-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690332116
+val,MmCows,Drinking,Drinking,ID12+cam_1+1690297601_10-06-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690297601
+val,PlayBehavior,Gallop,gallop,pb_c0aa304c.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Standing,Standing,ID2+cam_4+1690297841_10-10-41.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690297841
+val,MmCows,Eating head down,Feeding head down,ID1+cam_3+1690320986_16-36-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690320986
+val,MmCows,Eating head up,Feeding head up,ID10+cam_4+1690288451_07-34-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690288451
+val,MmCows,Eating head down,Feeding head down,ID16+cam_3+1690313051_14-24-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690313051
+val,MmCows,Standing,Standing,ID1+cam_1+1690297466_10-04-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_1,1690297466
+val,MmCows,Drinking,Drinking,ID12+cam_4+1690277336_04-28-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690277336
+val,MmCows,Lying,Lying,ID2+cam_4+1690284746_06-32-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690284746
+val,MmCows,Eating head down,Feeding head down,ID4+cam_3+1690342616_22-36-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690342616
+val,MmCows,Walking,Walking,ID9+cam_2+1690312436_14-13-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_2,1690312436
+val,PlayBehavior,Leap,leap,pb_bb83ba78.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Walking,Walking,ID1+cam_2+1690290491_08-08-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_2,1690290491
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_53281da6.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID11+cam_3+1690331216_19-26-56.jpg,cow_11,MmCows (UW-Madison Arlington),cam_3,1690331216
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_2770b7e4.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_17ddd79c.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Gallop,gallop,pb_bacde3fa.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Leap,leap,pb_0a7b2378.jpg,site_3_calf_1,site_3,ch01,
+val,MmCows,Drinking,Drinking,ID12+cam_1+1690272821_03-13-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690272821
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690299791_10-43-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690299791
+val,MmCows,Lying,Lying,ID1+cam_4+1690283771_06-16-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690283771
+val,MmCows,Eating head up,Feeding head up,ID5+cam_4+1690292336_08-38-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690292336
+val,MmCows,Walking,Walking,ID2+cam_3+1690330346_19-12-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_3,1690330346
+val,PlayBehavior,Gallop,gallop,pb_6201347e.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID4+cam_2+1690341161_22-12-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_2,1690341161
+val,MmCows,Eating head up,Feeding head up,ID13+cam_4+1690319816_16-16-56.jpg,cow_13,MmCows (UW-Madison Arlington),cam_4,1690319816
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_3a56343e.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690320656_16-30-56.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690320656
+val,MmCows,Eating head down,Feeding head down,ID16+cam_1+1690331531_19-32-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_1,1690331531
+val,MmCows,Drinking,Drinking,ID4+cam_3+1690336931_21-02-11.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690336931
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_730b703d.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID16+cam_4+1690314116_14-41-56.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690314116
+val,MmCows,Standing,Standing,ID12+cam_4+1690298846_10-27-26.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690298846
+val,MmCows,Eating head up,Feeding head up,ID12+cam_3+1690329941_19-05-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690329941
+val,MmCows,Standing,Standing,ID15+cam_1+1690339496_21-44-56.jpg,cow_15,MmCows (UW-Madison Arlington),cam_1,1690339496
+val,PlayBehavior,Leap,leap,pb_bafe8cfe.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_f179d897.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Lying,Lying,ID9+cam_1+1690275281_03-54-41.jpg,cow_9,MmCows (UW-Madison Arlington),cam_1,1690275281
+val,MmCows,Walking,Walking,ID5+cam_3+1690328261_18-37-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_3,1690328261
+val,MmCows,Walking,Walking,ID8+cam_4+1690309226_13-20-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690309226
+val,MmCows,Standing,Standing,ID14+cam_4+1690316426_15-20-26.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690316426
+val,MmCows,Lying,Lying,ID16+cam_3+1690343066_22-44-26.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690343066
+val,MmCows,Walking,Walking,ID8+cam_2+1690274996_03-49-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690274996
+val,MmCows,Drinking,Drinking,ID12+cam_1+1690319666_16-14-26.jpg,cow_12,MmCows (UW-Madison Arlington),cam_1,1690319666
+val,MmCows,Standing,Standing,ID9+cam_4+1690312046_14-07-26.jpg,cow_9,MmCows (UW-Madison Arlington),cam_4,1690312046
+val,MmCows,Lying,Lying,ID6+cam_4+1690327256_18-20-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690327256
+val,PlayBehavior,Leap,leap,pb_290b114c.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_77f37f84.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Standing,Standing,ID14+cam_4+1690321916_16-51-56.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690321916
+val,MmCows,Walking,Walking,ID15+cam_1+1690327391_18-23-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_1,1690327391
+val,MmCows,Eating head down,Feeding head down,ID15+cam_3+1690276091_04-08-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_3,1690276091
+val,PlayBehavior,Leap,leap,pb_ee2dab66.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690292216_08-36-56.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690292216
+val,MmCows,Standing,Standing,ID2+cam_4+1690313171_14-26-11.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690313171
+val,MmCows,Eating head down,Feeding head down,ID6+cam_3+1690304816_12-06-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_3,1690304816
+val,PlayBehavior,Gallop,gallop,pb_4cd8adcc.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_5ed85ad5.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_de755071.jpg,site_1_calf_2,site_1,,
+val,MmCows,Lying,Lying,ID8+cam_2+1690326626_18-10-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690326626
+val,PlayBehavior,Gallop,gallop,pb_5a91f815.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Eating head down,Feeding head down,ID3+cam_4+1690325531_17-52-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690325531
+val,MmCows,Walking,Walking,ID12+cam_4+1690310351_13-39-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690310351
+val,PlayBehavior,Leap,leap,pb_7342d43e.jpg,site_2_calf_1,site_2,ch04,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_2f76a2e8.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_de3b027e.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Standing,Standing,ID12+cam_3+1690299176_10-32-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690299176
+val,MmCows,Lying,Lying,ID13+cam_2+1690297301_10-01-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_2,1690297301
+val,MmCows,Standing,Standing,ID2+cam_4+1690312106_14-08-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690312106
+val,MmCows,Walking,Walking,ID16+cam_3+1690329521_18-58-41.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690329521
+val,MmCows,Eating head up,Feeding head up,ID2+cam_4+1690309901_13-31-41.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690309901
+val,MmCows,Walking,Walking,ID9+cam_3+1690272116_03-01-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690272116
+val,PlayBehavior,Leap,leap,pb_0d7ea833.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Standing,Standing,ID5+cam_2+1690330826_19-20-26.jpg,cow_5,MmCows (UW-Madison Arlington),cam_2,1690330826
+val,MmCows,Standing,Standing,ID4+cam_4+1690315226_15-00-26.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690315226
+val,MmCows,Walking,Walking,ID7+cam_2+1690316351_15-19-11.jpg,cow_7,MmCows (UW-Madison Arlington),cam_2,1690316351
+val,MmCows,Eating head up,Feeding head up,ID12+cam_3+1690296941_09-55-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690296941
+val,MmCows,Eating head down,Feeding head down,ID15+cam_3+1690325396_17-49-56.jpg,cow_15,MmCows (UW-Madison Arlington),cam_3,1690325396
+val,PlayBehavior,Gallop,gallop,pb_41b21e68.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_1707910a.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID10+cam_3+1690313336_14-28-56.jpg,cow_10,MmCows (UW-Madison Arlington),cam_3,1690313336
+val,PlayBehavior,Gallop,gallop,pb_ca988888.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Lying,Lying,ID3+cam_2+1690345841_23-30-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_2,1690345841
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690274741_03-45-41.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690274741
+val,MmCows,Lying,Lying,ID1+cam_4+1690329311_18-55-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690329311
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_acd85d68.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Walking,Walking,ID12+cam_4+1690272731_03-12-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690272731
+val,PlayBehavior,Gallop,gallop,pb_af14538d.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID8+cam_4+1690286066_06-54-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690286066
+val,PlayBehavior,Gallop,gallop,pb_b4fd9490.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_f093f384.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_97648775.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Standing,Standing,ID12+cam_2+1690314461_14-47-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690314461
+val,MmCows,Lying,Lying,ID13+cam_2+1690342646_22-37-26.jpg,cow_13,MmCows (UW-Madison Arlington),cam_2,1690342646
+val,MmCows,Eating head up,Feeding head up,ID1+cam_3+1690319546_16-12-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690319546
+val,PlayBehavior,Leap,leap,pb_348c1164.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID10+cam_4+1690275731_04-02-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690275731
+val,MmCows,Lying,Lying,ID4+cam_3+1690334066_20-14-26.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690334066
+val,MmCows,Eating head down,Feeding head down,ID8+cam_4+1690276721_04-18-41.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690276721
+val,MmCows,Lying,Lying,ID10+cam_1+1690292201_08-36-41.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690292201
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_7870ebb1.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID12+cam_4+1690328756_18-45-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690328756
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_86058e03.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID16+cam_3+1690310921_13-48-41.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690310921
+val,PlayBehavior,Gallop,gallop,pb_f3d12d10.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_314d3632.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Eating head up,Feeding head up,ID9+cam_3+1690303961_11-52-41.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690303961
+val,MmCows,Walking,Walking,ID3+cam_3+1690326116_18-01-56.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690326116
+val,PlayBehavior,Leap,leap,pb_022a3969.jpg,site_3_calf_2,site_3,ch01,
+val,MmCows,Standing,Standing,ID2+cam_1+1690336601_20-56-41.jpg,cow_2,MmCows (UW-Madison Arlington),cam_1,1690336601
+val,MmCows,Walking,Walking,ID12+cam_4+1690333046_19-57-26.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690333046
+val,MmCows,Lying,Lying,ID3+cam_2+1690336151_20-49-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_2,1690336151
+val,MmCows,Eating head down,Feeding head down,ID15+cam_4+1690310141_13-35-41.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690310141
+val,MmCows,Lying,Lying,ID1+cam_3+1690327406_18-23-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690327406
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_c423ead6.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Walking,Walking,ID8+cam_2+1690335941_20-45-41.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690335941
+val,MmCows,Lying,Lying,ID3+cam_3+1690340291_21-58-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690340291
+val,MmCows,Walking,Walking,ID12+cam_2+1690319441_16-10-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690319441
+val,MmCows,Lying,Lying,ID6+cam_2+1690274276_03-37-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_2,1690274276
+val,MmCows,Lying,Lying,ID7+cam_3+1690325636_17-53-56.jpg,cow_7,MmCows (UW-Madison Arlington),cam_3,1690325636
+val,MmCows,Standing,Standing,ID10+cam_4+1690302356_11-25-56.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690302356
+val,PlayBehavior,Gallop,gallop,pb_8f31cbbc.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID12+cam_4+1690312661_14-17-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690312661
+val,MmCows,Lying,Lying,ID6+cam_2+1690276196_04-09-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_2,1690276196
+val,MmCows,Standing,Standing,ID8+cam_2+1690342046_22-27-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_2,1690342046
+val,MmCows,Walking,Walking,ID6+cam_1+1690315961_15-12-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_1,1690315961
+val,MmCows,Lying,Lying,ID8+cam_4+1690338251_21-24-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690338251
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690289111_07-45-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690289111
+val,MmCows,Walking,Walking,ID6+cam_3+1690293266_08-54-26.jpg,cow_6,MmCows (UW-Madison Arlington),cam_3,1690293266
+val,MmCows,Lying,Lying,ID9+cam_4+1690344896_23-14-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_4,1690344896
+val,MmCows,Lying,Lying,ID15+cam_3+1690284791_06-33-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_3,1690284791
+val,MmCows,Walking,Walking,ID5+cam_4+1690280381_05-19-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690280381
+val,MmCows,Eating head down,Feeding head down,ID3+cam_4+1690289081_07-44-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690289081
+val,MmCows,Lying,Lying,ID1+cam_2+1690294931_09-22-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_2,1690294931
+val,MmCows,Lying,Lying,ID6+cam_2+1690275926_04-05-26.jpg,cow_6,MmCows (UW-Madison Arlington),cam_2,1690275926
+val,MmCows,Eating head up,Feeding head up,ID15+cam_4+1690332731_19-52-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690332731
+val,MmCows,Drinking,Drinking,ID3+cam_3+1690326401_18-06-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690326401
+val,MmCows,Drinking,Drinking,ID3+cam_1+1690303736_11-48-56.jpg,cow_3,MmCows (UW-Madison Arlington),cam_1,1690303736
+val,MmCows,Walking,Walking,ID9+cam_2+1690335896_20-44-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_2,1690335896
+val,PlayBehavior,Leap,leap,pb_442f5c1f.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Eating head up,Feeding head up,ID16+cam_3+1690301291_11-08-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_3,1690301291
+val,MmCows,Walking,Walking,ID12+cam_4+1690272746_03-12-26.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690272746
+val,PlayBehavior,Leap,leap,pb_cb3d4a19.jpg,site_3_calf_2,site_3,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_1e467272.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_0e523955.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690274936_03-48-56.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690274936
+val,MmCows,Eating head up,Feeding head up,ID3+cam_4+1690292366_08-39-26.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690292366
+val,MmCows,Eating head down,Feeding head down,ID6+cam_4+1690284416_06-26-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690284416
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_8121b145.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_8b55e42b.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID16+cam_4+1690312391_14-13-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690312391
+val,MmCows,Lying,Lying,ID10+cam_1+1690297031_09-57-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690297031
+val,PlayBehavior,Leap,leap,pb_c9eef016.jpg,site_3_calf_3,site_3,ch01,
+val,PlayBehavior,Leap,leap,pb_aaabca3c.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID2+cam_4+1690319366_16-09-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690319366
+val,PlayBehavior,Leap,leap,pb_0e2c18ae.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_6055653d.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID10+cam_3+1690288226_07-30-26.jpg,cow_10,MmCows (UW-Madison Arlington),cam_3,1690288226
+val,MmCows,Eating head down,Feeding head down,ID11+cam_4+1690322981_17-09-41.jpg,cow_11,MmCows (UW-Madison Arlington),cam_4,1690322981
+val,MmCows,Eating head up,Feeding head up,ID15+cam_4+1690276871_04-21-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690276871
+val,MmCows,Walking,Walking,ID1+cam_3+1690319861_16-17-41.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690319861
+val,MmCows,Walking,Walking,ID4+cam_4+1690326266_18-04-26.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690326266
+val,MmCows,Eating head down,Feeding head down,ID4+cam_4+1690285211_06-40-11.jpg,cow_4,MmCows (UW-Madison Arlington),cam_4,1690285211
+val,MmCows,Walking,Walking,ID5+cam_3+1690336061_20-47-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_3,1690336061
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_b92a8740.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID10+cam_1+1690292816_08-46-56.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690292816
+val,MmCows,Eating head up,Feeding head up,ID7+cam_4+1690284341_06-25-41.jpg,cow_7,MmCows (UW-Madison Arlington),cam_4,1690284341
+val,MmCows,Standing,Standing,ID6+cam_1+1690335836_20-43-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_1,1690335836
+val,PlayBehavior,Gallop,gallop,pb_162c0751.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Lying,Lying,ID10+cam_1+1690338866_21-34-26.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690338866
+val,MmCows,Eating head down,Feeding head down,ID2+cam_3+1690290191_08-03-11.jpg,cow_2,MmCows (UW-Madison Arlington),cam_3,1690290191
+val,MmCows,Walking,Walking,ID6+cam_4+1690334666_20-24-26.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690334666
+val,PlayBehavior,Gallop,gallop,pb_b46e7d9f.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_1e87a6e1.jpg,site_1_calf_2,site_1,,
+val,MmCows,Drinking,Drinking,ID5+cam_1+1690313561_14-32-41.jpg,cow_5,MmCows (UW-Madison Arlington),cam_1,1690313561
+val,MmCows,Eating head up,Feeding head up,ID11+cam_4+1690331321_19-28-41.jpg,cow_11,MmCows (UW-Madison Arlington),cam_4,1690331321
+val,MmCows,Standing,Standing,ID12+cam_2+1690292141_08-35-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690292141
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_eb857d77.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Gallop,gallop,pb_6615f3f6.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Walking,Walking,ID12+cam_2+1690333016_19-56-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_2,1690333016
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_1f1ace0b.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_87cdb7aa.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Walking,Walking,ID13+cam_1+1690347086_23-51-26.jpg,cow_13,MmCows (UW-Madison Arlington),cam_1,1690347086
+val,PlayBehavior,Leap,leap,pb_2a6b7f01.jpg,site_3_calf_2,site_3,ch01,
+val,MmCows,Drinking,Drinking,ID15+cam_4+1690297946_10-12-26.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690297946
+val,MmCows,Eating head down,Feeding head down,ID14+cam_4+1690321196_16-39-56.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690321196
+val,MmCows,Standing,Standing,ID10+cam_1+1690302191_11-23-11.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690302191
+val,MmCows,Eating head down,Feeding head down,ID3+cam_3+1690321661_16-47-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690321661
+val,MmCows,Drinking,Drinking,ID3+cam_2+1690303691_11-48-11.jpg,cow_3,MmCows (UW-Madison Arlington),cam_2,1690303691
+val,PlayBehavior,Leap,leap,pb_65c4ed9a.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID15+cam_3+1690326311_18-05-11.jpg,cow_15,MmCows (UW-Madison Arlington),cam_3,1690326311
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_0654af58.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID15+cam_1+1690327601_18-26-41.jpg,cow_15,MmCows (UW-Madison Arlington),cam_1,1690327601
+val,MmCows,Drinking,Drinking,ID3+cam_1+1690326161_18-02-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_1,1690326161
+val,MmCows,Drinking,Drinking,ID14+cam_4+1690306586_12-36-26.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690306586
+val,MmCows,Eating head up,Feeding head up,ID3+cam_3+1690323821_17-23-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690323821
+val,MmCows,Drinking,Drinking,ID2+cam_4+1690279526_05-05-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690279526
+val,PlayBehavior,Gallop,gallop,pb_c0adae85.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_de21f75a.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID1+cam_3+1690273496_03-24-56.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690273496
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_57d3ee45.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID10+cam_4+1690292261_08-37-41.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690292261
+val,MmCows,Eating head down,Feeding head down,ID14+cam_3+1690307006_12-43-26.jpg,cow_14,MmCows (UW-Madison Arlington),cam_3,1690307006
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_95958f9b.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Walking,Walking,ID14+cam_3+1690294286_09-11-26.jpg,cow_14,MmCows (UW-Madison Arlington),cam_3,1690294286
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_fd30bfb3.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID8+cam_1+1690280111_05-15-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_1,1690280111
+val,MmCows,Lying,Lying,ID8+cam_3+1690347131_23-52-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690347131
+val,PlayBehavior,Gallop,gallop,pb_934d64c2.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Eating head down,Feeding head down,ID8+cam_3+1690276781_04-19-41.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690276781
+val,PlayBehavior,Leap,leap,pb_4482b244.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head up,Feeding head up,ID4+cam_3+1690286321_06-58-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690286321
+val,PlayBehavior,Leap,leap,pb_643d9084.jpg,site_4_calf_1,site_4,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_3232ff67.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID1+cam_4+1690335746_20-42-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690335746
+val,MmCows,Standing,Standing,ID13+cam_4+1690324181_17-29-41.jpg,cow_13,MmCows (UW-Madison Arlington),cam_4,1690324181
+val,MmCows,Drinking,Drinking,ID1+cam_3+1690322561_17-02-41.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690322561
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_d22883f0.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_96af1d52.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Lying,Lying,ID12+cam_4+1690286561_07-02-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690286561
+val,MmCows,Walking,Walking,ID14+cam_3+1690328231_18-37-11.jpg,cow_14,MmCows (UW-Madison Arlington),cam_3,1690328231
+val,MmCows,Drinking,Drinking,ID16+cam_4+1690275056_03-50-56.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690275056
+val,PlayBehavior,Leap,leap,pb_b04dd737.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Standing,Standing,ID4+cam_3+1690275356_03-55-56.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690275356
+val,MmCows,Standing,Standing,ID8+cam_1+1690341926_22-25-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_1,1690341926
+val,MmCows,Drinking,Drinking,ID2+cam_3+1690328261_18-37-41.jpg,cow_2,MmCows (UW-Madison Arlington),cam_3,1690328261
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_942b51c2.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID1+cam_4+1690334636_20-23-56.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690334636
+val,PlayBehavior,Gallop,gallop,pb_5a84857c.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Eating head down,Feeding head down,ID1+cam_4+1690297046_09-57-26.jpg,cow_1,MmCows (UW-Madison Arlington),cam_4,1690297046
+val,MmCows,Drinking,Drinking,ID12+cam_3+1690272776_03-12-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690272776
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_ff9e6c5f.jpg,site_1_calf_1,site_1,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_24c017c8.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Walking,Walking,ID9+cam_1+1690309601_13-26-41.jpg,cow_9,MmCows (UW-Madison Arlington),cam_1,1690309601
+val,MmCows,Standing,Standing,ID5+cam_1+1690320416_16-26-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_1,1690320416
+val,MmCows,Eating head down,Feeding head down,ID2+cam_4+1690345466_23-24-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690345466
+val,MmCows,Standing,Standing,ID1+cam_3+1690274471_03-41-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_3,1690274471
+val,PlayBehavior,Gallop,gallop,pb_751d9885.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Standing,Standing,ID12+cam_3+1690281086_05-31-26.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690281086
+val,PlayBehavior,Leap,leap,pb_8cbb734c.jpg,site_3_calf_3,site_3,ch01,
+val,MmCows,Walking,Walking,ID1+cam_1+1690296491_09-48-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_1,1690296491
+val,MmCows,Lying,Lying,ID1+cam_2+1690282391_05-53-11.jpg,cow_1,MmCows (UW-Madison Arlington),cam_2,1690282391
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_e2a0cea4.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Standing,Standing,ID6+cam_1+1690324031_17-27-11.jpg,cow_6,MmCows (UW-Madison Arlington),cam_1,1690324031
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_56371fd9.jpg,site_1_calf_2,site_1,ch01,
+val,PlayBehavior,Leap,leap,pb_dba31b12.jpg,site_3_calf_1,site_3,ch01,
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_1f82ebf5.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID9+cam_3+1690337096_21-04-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690337096
+val,PlayBehavior,Leap,leap,pb_8d8c1bf0.jpg,site_1_calf_2,site_1,,
+val,MmCows,Standing,Standing,ID4+cam_3+1690284146_06-22-26.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690284146
+val,MmCows,Walking,Walking,ID10+cam_3+1690280306_05-18-26.jpg,cow_10,MmCows (UW-Madison Arlington),cam_3,1690280306
+val,MmCows,Eating head down,Feeding head down,ID6+cam_4+1690332716_19-51-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690332716
+val,MmCows,Lying,Lying,ID11+cam_3+1690308956_13-15-56.jpg,cow_11,MmCows (UW-Madison Arlington),cam_3,1690308956
+val,PlayBehavior,Leap,leap,pb_aaf25906.jpg,site_3_calf_2,site_3,ch01,
+val,PlayBehavior,Gallop,gallop,pb_017b162c.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Lying,Lying,ID4+cam_3+1690310171_13-36-11.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690310171
+val,MmCows,Standing,Standing,ID5+cam_4+1690280606_05-23-26.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690280606
+val,MmCows,Lying,Lying,ID14+cam_4+1690338656_21-30-56.jpg,cow_14,MmCows (UW-Madison Arlington),cam_4,1690338656
+val,MmCows,Eating head up,Feeding head up,ID12+cam_3+1690330721_19-18-41.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690330721
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_874fd517.jpg,site_1_calf_1,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID16+cam_4+1690300211_10-50-11.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690300211
+val,PlayBehavior,Leap,leap,pb_39317001.jpg,site_3_calf_3,site_3,ch01,
+val,MmCows,Standing,Standing,ID2+cam_4+1690312346_14-12-26.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690312346
+val,MmCows,Eating head down,Feeding head down,ID6+cam_4+1690288616_07-36-56.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690288616
+val,MmCows,Lying,Lying,ID12+cam_3+1690283216_06-06-56.jpg,cow_12,MmCows (UW-Madison Arlington),cam_3,1690283216
+val,MmCows,Lying,Lying,ID10+cam_1+1690339541_21-45-41.jpg,cow_10,MmCows (UW-Madison Arlington),cam_1,1690339541
+val,MmCows,Eating head up,Feeding head up,ID13+cam_4+1690332191_19-43-11.jpg,cow_13,MmCows (UW-Madison Arlington),cam_4,1690332191
+val,MmCows,Lying,Lying,ID8+cam_4+1690337996_21-19-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690337996
+val,MmCows,Drinking,Drinking,ID3+cam_4+1690320101_16-21-41.jpg,cow_3,MmCows (UW-Madison Arlington),cam_4,1690320101
+val,MmCows,Eating head up,Feeding head up,ID16+cam_4+1690314986_14-56-26.jpg,cow_16,MmCows (UW-Madison Arlington),cam_4,1690314986
+val,PlayBehavior,Gallop,gallop,pb_98ed1a67.jpg,site_4_calf_1,site_4,ch01,
+val,MmCows,Walking,Walking,ID2+cam_1+1690286771_07-06-11.jpg,cow_2,MmCows (UW-Madison Arlington),cam_1,1690286771
+val,PlayBehavior,Leap,leap,pb_c84c9db0.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Drinking,Drinking,ID11+cam_4+1690293461_08-57-41.jpg,cow_11,MmCows (UW-Madison Arlington),cam_4,1690293461
+val,MmCows,Drinking,Drinking,ID14+cam_2+1690327376_18-22-56.jpg,cow_14,MmCows (UW-Madison Arlington),cam_2,1690327376
+val,MmCows,Eating head up,Feeding head up,ID4+cam_3+1690328381_18-39-41.jpg,cow_4,MmCows (UW-Madison Arlington),cam_3,1690328381
+val,PlayBehavior,Gallop,gallop,pb_ab62427d.jpg,site_2_calf_1,site_2,ch04,
+val,MmCows,Drinking,Drinking,ID12+cam_4+1690312451_14-14-11.jpg,cow_12,MmCows (UW-Madison Arlington),cam_4,1690312451
+val,MmCows,Eating head down,Feeding head down,ID9+cam_3+1690273076_03-17-56.jpg,cow_9,MmCows (UW-Madison Arlington),cam_3,1690273076
+val,MmCows,Eating head down,Feeding head down,ID10+cam_4+1690328516_18-41-56.jpg,cow_10,MmCows (UW-Madison Arlington),cam_4,1690328516
+val,MmCows,Lying,Lying,ID8+cam_3+1690293026_08-50-26.jpg,cow_8,MmCows (UW-Madison Arlington),cam_3,1690293026
+val,MmCows,Eating head up,Feeding head up,ID6+cam_4+1690288721_07-38-41.jpg,cow_6,MmCows (UW-Madison Arlington),cam_4,1690288721
+val,MmCows,Eating head up,Feeding head up,ID7+cam_4+1690285931_06-52-11.jpg,cow_7,MmCows (UW-Madison Arlington),cam_4,1690285931
+val,MmCows,Lying,Lying,ID2+cam_4+1690316636_15-23-56.jpg,cow_2,MmCows (UW-Madison Arlington),cam_4,1690316636
+val,PlayBehavior,Leap,leap,pb_36900fef.jpg,site_1_calf_2,site_1,ch01,
+val,MmCows,Eating head down,Feeding head down,ID8+cam_4+1690275251_03-54-11.jpg,cow_8,MmCows (UW-Madison Arlington),cam_4,1690275251
+val,MmCows,Standing,Standing,ID3+cam_3+1690305296_12-14-56.jpg,cow_3,MmCows (UW-Madison Arlington),cam_3,1690305296
+val,MmCows,Lying,Lying,ID15+cam_4+1690302701_11-31-41.jpg,cow_15,MmCows (UW-Madison Arlington),cam_4,1690302701
+val,MmCows,Drinking,Drinking,ID5+cam_4+1690321196_16-39-56.jpg,cow_5,MmCows (UW-Madison Arlington),cam_4,1690321196
+val,MmCows,Drinking,Drinking,ID8+cam_1+1690280036_05-13-56.jpg,cow_8,MmCows (UW-Madison Arlington),cam_1,1690280036
+val,PlayBehavior,Frontal pushing,frontal_pushing,pb_2b515bd7.jpg,site_1_calf_1,site_1,ch01,

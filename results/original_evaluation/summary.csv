@@ -1,0 +1,12 @@
+model_key,model,trained_parameters,epochs_run,best_validation_epoch,evaluated_weights,validation_accuracy_evaluated_weights,test_accuracy,weighted_f1,macro_f1,balanced_accuracy,mmcows_accuracy,playbehavior_accuracy,training_time_h,inference_crops_per_s_v100
+R18,ResNet-18,11300000,59,44,last,80.93,72.87,0.7526,0.5387,0.6072,72.98,60.87,16.75,13.13
+VITS,ViT-Small,21800000,64,54,last,73.7,61.91,0.66,0.5061,0.5606,61.93,60.55,18.65,14.14
+FROZEN,DINOv3 frozen,4724745,33,23,last,86.3,76.56,0.7691,0.5992,0.6525,76.65,66.75,17.45,6.65
+Q_q8,"QLoRA, q_proj, r = 8",7346185,17,12,best,90.56,77.17,0.7646,0.5789,0.605,77.33,59.51,6.53,6.18
+Q_q16,"QLoRA, q_proj, r = 16",9967625,19,14,best,90.74,78.38,0.7753,0.605,0.6195,78.52,62.58,7.27,6.58
+Q_a16,"QLoRA, all-linear, r = 16",49289225,10,5,best,90.37,80.4,0.8069,0.6366,0.6775,80.51,67.38,4.72,6.63
+Q_a64,"QLoRA, all-linear, r = 64",182982665,12,7,best,91.3,83.16,0.838,0.6618,0.7028,83.3,67.8,5.77,6.48
+D_q8,"DoRA, q_proj, r = 8",7510025,25,20,best,90.19,81.53,0.8182,0.6395,0.6757,81.68,64.93,11.52,6.64
+D_q16,"DoRA, q_proj, r = 16",10131465,22,17,best,91.67,81.03,0.8153,0.6336,0.6751,81.19,64.2,10.45,6.6
+D_a16,"DoRA, all-linear, r = 16",50763785,10,5,best,90.56,81.23,0.8139,0.6374,0.6763,81.37,66.13,11.85,3.26
+D_a64,"DoRA, all-linear, r = 64",184457225,9,4,best,92.04,83.14,0.8338,0.6702,0.7037,83.27,68.99,10.98,3.2
