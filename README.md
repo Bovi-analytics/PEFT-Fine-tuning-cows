@@ -11,7 +11,13 @@ Haiyu Yang, Sumit Sharma, Enhong Liu and Miel Hostens — Department of Animal S
 
 Code, data splits, per-crop predictions and adapters for a controlled comparison of how a 6.7-billion-parameter self-supervised vision model (DINOv3 ViT-7B/16) can be adapted to nine dairy cattle behaviors from 2,160 expert-verified images on a single 16 GB GPU: networks trained from scratch (ResNet-18, ViT-Small), a frozen backbone with a trained head, and eight configurations of quantized low-rank adaptation (QLoRA and DoRA; ranks 8, 16, 64; adapters on the query projections or on all linear layers). All models are evaluated on 211,800 crops from the same video sources, 98 times the training set.
 
-> **Correction of the test evaluation (October 2026).** During training and validation the DINOv3 model wrapper converted the ImageNet-normalized input back to pixel values in [0, 1] before the backbone, but the original test-evaluation cells of the eight QLoRA/DoRA notebooks passed the normalized tensor directly. The frozen-backbone and from-scratch baselines were evaluated consistently. The test results of the eight adapted models were therefore re-computed with the training-time preprocessing ([`notebooks/corrected_testing`](notebooks/corrected_testing)); results appear in [`results/corrected_evaluation`](results/corrected_evaluation) when the runs finish. The numbers of arXiv v1 (2603.17782) and of [`results/original_evaluation`](results/original_evaluation) for the adapted models come from the inconsistent evaluation and will be superseded. Separately, the three baselines were evaluated with their last-epoch weights rather than their best-validation weights (a shallow `state_dict().copy()` in their training loop); this is documented in the paper.
+> **Note on the test evaluation (October 2026).** During training and validation, the DINOv3 model wrapper converted the ImageNet-normalized input back to pixel values in [0, 1] before the backbone. The original test-evaluation cells (Module 11) of the eight QLoRA/DoRA notebooks passed the normalized tensor directly. The DoRA cells also ran without fp16 autocast, and the two QLoRA q_proj notebooks merged the adapters into the 4-bit weights before testing. The frozen-backbone and from-scratch baselines were evaluated consistently.
+>
+> Two configurations were re-evaluated with the training-time preprocessing on the same random sample of 2,000 test crops ([`results/preprocessing_check`](results/preprocessing_check)). Of their predictions, 2.8% (QLoRA, all-linear, r = 64) and 4.0% (DoRA, q_proj, r = 8) changed, and accuracy changed by +0.35 and +0.10 percentage points (McNemar p = 0.34 and 0.89). Re-running the original procedure reproduced 99.9% of the original predictions. The other six configurations were not re-evaluated.
+>
+> **The results reported in the paper, in arXiv v1 (2603.17782) and in [`results/original_evaluation`](results/original_evaluation) are those of the original evaluation.** The evaluation cells in `notebooks/` have been corrected; changed lines are marked `FIX` and a note sits above each cell. The stored cell outputs are those of the original run. [`notebooks/corrected_testing`](notebooks/corrected_testing) contains stand-alone notebooks that evaluate the test set either as validation was evaluated (`preprocessing = corrected`) or as in the original evaluation (`legacy`).
+>
+> Separately, the three baselines were evaluated with their last-epoch weights rather than their best-validation weights (a shallow `state_dict().copy()` in their training loop); this is documented in the paper.
 
 ## Repository structure
 
@@ -21,13 +27,13 @@ PEFT-Fine-tuning-cows/
 │   ├── README.md                    column definitions, licences, anonymization
 │   └── splits/{train,val,test}.csv  2,160 / 540 / 211,800 crops
 ├── notebooks/
-│   ├── Q-lora ... / DoRA ... .ipynb training and original evaluation of the eight adapted models
+│   ├── Q-lora ... / DoRA ... .ipynb training and evaluation of the eight adapted models (evaluation cell corrected, see above)
 │   ├── TrainFromScatch_Preprocesing Pipeline Val = 1.ipynb    ResNet-18 and ViT-Small from scratch
 │   ├── UsingPretrainedModel_DinoV3 Embeddings Val = 1.ipynb    frozen DINOv3 backbone + MLP head
-│   └── corrected_testing/           Databricks notebooks for the corrected test evaluation
+│   └── corrected_testing/           Databricks notebooks that re-evaluate the adapted models (corrected or original preprocessing)
 ├── results/
-│   ├── original_evaluation/         confusion matrices, per-crop predictions, summary (see the note above)
-│   ├── corrected_evaluation/        corrected test results of the adapted models (added when complete)
+│   ├── original_evaluation/         confusion matrices, per-crop predictions, summary (the results reported in the paper)
+│   ├── preprocessing_check/         re-evaluation of two adapted models on 2,000 test crops (see the note above)
 │   └── training_curves/             validation accuracy and training loss per epoch for all 11 runs
 ├── analysis/compute_metrics.py      recomputes every reported metric from the confusion matrices
 ├── assets/
@@ -47,7 +53,7 @@ PEFT-Fine-tuning-cows/
 
 1. Environment: `requirements.txt` / `environment.yml` (the paper's runs used Databricks GPU runtimes with PyTorch 2.3.1 or 2.6.0, Transformers 4.57.1, PEFT 0.13.2, bitsandbytes 0.48.0, on one Tesla V100-PCIE-16GB).
 2. Training: the notebooks in `notebooks/` (Module 0 builds the splits; Modules 5–10 train; Module 11 evaluates).
-3. Corrected test evaluation: `notebooks/corrected_testing/Corrected testing - <model>.py` (Databricks source format). Each loads the saved best-validation adapters and head and evaluates the 211,800 test crops exactly as validation was evaluated during training. Widget `preprocessing = legacy` reproduces the original evaluation for comparison.
+3. Re-evaluation: `notebooks/corrected_testing/Corrected testing - <model>.py` (Databricks source format). Each loads the saved best-validation adapters and head. It evaluates the 211,800 test crops, or a seeded random subset (widget `limit`), as validation was evaluated during training. Widget `preprocessing = legacy` reproduces the original evaluation for comparison. A full run is estimated at 8–18 h per model on one A10 GPU.
 4. Metrics: `python analysis/compute_metrics.py results/original_evaluation/confusion_matrices.json` prints accuracy (with Wilson 95% intervals), weighted and macro-F1, balanced accuracy, per-class precision/recall/F1 and per-source accuracy.
 
 ## Trained models
@@ -71,4 +77,4 @@ Code: MIT (see `LICENSE`). Files in `data/` and `results/` that describe MmCows 
 
 ![Graphical summary of arXiv v1](./assets/Infographics.png)
 
-*Graphical summary of arXiv v1 (generated with NotebookLM). It shows the original evaluation and will be updated.*
+*Graphical summary of arXiv v1 (generated with NotebookLM).*

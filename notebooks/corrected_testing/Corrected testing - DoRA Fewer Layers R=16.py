@@ -7,9 +7,9 @@
 # MAGIC
 # MAGIC * **Training and validation:** the model wrapper inverted the ImageNet normalization before DINOv3 (`x_denorm = x * std + mean`, clamped to [0, 1]) and ran under fp16 autocast.
 # MAGIC * **Original test evaluation (Module 11):** the ImageNet-normalized tensor was passed to the backbone directly (`model(pixel_values=x)`), i.e. a different input scaling from training.
-# MAGIC * **This notebook:** evaluates the test set exactly as validation was evaluated during training: inverse normalization to [0, 1], fp16 autocast, and the 4-bit base prepared with `prepare_model_for_kbit_training` (non-quantized layers in fp32). Nothing is retrained; the adapters and head are the files saved at the best validation epoch in `dinov3_dora_r16_qproj_valx1`.
+# MAGIC * **This notebook:** evaluates the test set exactly as validation was evaluated during training: inverse normalization to [0, 1], fp16 autocast, the 4-bit base prepared with `prepare_model_for_kbit_training` (non-quantized layers in fp32) and the adapters kept unmerged. Nothing is retrained; the adapters and head are the files saved at the best validation epoch in `dinov3_dora_r16_qproj_valx1`.
 # MAGIC
-# MAGIC Widget `preprocessing = legacy` reproduces the original evaluation (use with `limit = 2000` as a sanity check against the original predictions); `corrected` is the fixed protocol used for the paper.
+# MAGIC Widget `preprocessing = legacy` reproduces the original evaluation (use with `limit = 2000` as a sanity check against the original predictions); `corrected` is the fixed protocol (test set evaluated as validation was).
 # MAGIC Results are written to `dbfs:/mnt/playbehavior/Fine_tuning/Processed_Datasets/corrected_testing/dinov3_dora_r16_qproj_valx1/`.
 
 # COMMAND ----------
@@ -31,7 +31,7 @@ dbutils.widgets.text("tag", "", "Optional tag for output file names")
 
 # COMMAND ----------
 
-import os, json, time, subprocess, datetime, socket
+import os, json, time, subprocess, datetime, socket, shutil
 import numpy as np, pandas as pd, torch, torch.nn as nn, cv2
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
@@ -48,6 +48,7 @@ RUN_DIR = "/dbfs/mnt/playbehavior/Fine_tuning/Processed_Datasets/dinov3_dora_r16
 ORIGINAL_PREDICTIONS = 'dora_r16_qproj_predictions.csv'
 ORIGINAL_ACCURACY = 0.8103
 LEGACY_AUTOCAST = False        # how the original test cell ran (QLoRA notebooks: fp16 autocast; DoRA notebooks: none)
+LEGACY_MERGE = False           # original test cell merged the adapters into the 4-bit weights (QLoRA q_proj notebooks)
 BASE_MODEL = "facebook/dinov3-vit7b16-pretrain-lvd1689m"
 DATA_DIR = "/dbfs/mnt/playbehavior/Fine_tuning/Processed_Datasets"
 OUT_DIR = f"{DATA_DIR}/corrected_testing/dinov3_dora_r16_qproj_valx1"
@@ -75,6 +76,10 @@ def gpu_status():
 print(f"Model: {DISPLAY} ({MODEL_KEY}) | preprocessing: {PREPROCESSING} | fp16 autocast: {USE_AUTOCAST} | limit: {LIMIT or 'all'}")
 print(f"torch {torch.__version__} | transformers {transformers.__version__} | peft {peft.__version__} | bitsandbytes {bitsandbytes.__version__}")
 print(f"host {socket.gethostname()} | GPU (name, MiB used, MiB total, util %): {gpu_status()}")
+if not torch.cuda.is_available():   # fail fast: some cluster VMs expose the GPU to nvidia-smi but not to CUDA
+    raise RuntimeError(f"CUDA is not available to PyTorch on this cluster (nvidia-smi: {gpu_status()}); rerun on a new cluster")
+torch.cuda.init()
+print("CUDA device:", torch.cuda.get_device_name(0), "| capability", torch.cuda.get_device_capability(0))
 login(token=dbutils.secrets.get(scope="hf", key="token"))   # DINOv3 is a gated model
 
 # COMMAND ----------
@@ -106,6 +111,8 @@ class TestSet(Dataset):
 
 # resume support: predictions are checkpointed every 30 min
 CKPT = f"{OUT_DIR}/partial_{SUFFIX}.npz"
+LOCAL_CKPT = f"/local_disk0/tmp/partial_{MODEL_KEY}_{SUFFIX}.npz"
+os.makedirs(os.path.dirname(LOCAL_CKPT), exist_ok=True)
 preds = np.full(len(test_df), -1, dtype=np.int64)
 conf = np.zeros(len(test_df), dtype=np.float32)
 if os.path.exists(CKPT):
@@ -122,11 +129,15 @@ print(f"Test crops: {len(test_df):,} | to evaluate: {len(todo):,} | batches: {le
 t_load = time.time()
 bnb = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.float16, bnb_4bit_quant_type="nf4",
                          bnb_4bit_use_double_quant=True)
-base = AutoModel.from_pretrained(BASE_MODEL, quantization_config=bnb, device_map="auto", trust_remote_code=True)
+base = AutoModel.from_pretrained(BASE_MODEL, quantization_config=bnb, device_map={"": 0}, trust_remote_code=True)
 if PREPROCESSING == "corrected":
     # as during training and validation: non-quantized layers cast to fp32 (the original test cells skipped this step)
     base = prepare_model_for_kbit_training(base, use_gradient_checkpointing=False)
 model = PeftModel.from_pretrained(base, f"{RUN_DIR}/best_lora_adapters").eval()
+MERGED = PREPROCESSING == "legacy" and LEGACY_MERGE
+if MERGED:
+    # as in the original test cell of this notebook: adapters merged into the 4-bit weights, which re-quantizes them
+    model = model.merge_and_unload().eval()
 adapter_cfg = json.load(open(f"{RUN_DIR}/best_lora_adapters/adapter_config.json"))
 print("Adapter config:", {k: adapter_cfg.get(k) for k in ("r", "lora_alpha", "lora_dropout", "use_dora", "target_modules")})
 head = nn.Sequential(nn.Linear(4096, 1024), nn.ReLU(inplace=True), nn.Dropout(0.5),
@@ -164,8 +175,8 @@ with torch.no_grad():
             print(f"[{datetime.datetime.utcnow():%H:%M} UTC] {done:,}/{len(todo):,} | {rate:.2f} crops/s | ETA {(len(todo) - done) / max(rate, 1e-9) / 3600:.1f} h"
                   f" | peak allocated {torch.cuda.max_memory_allocated() / 1e9:.2f} GB | GPU {g}", flush=True)
             last_log = now
-        if now - last_ckpt > 1800:
-            np.savez(CKPT, preds=preds, conf=conf); last_ckpt = now
+        if now - last_ckpt > 1800:   # DBFS FUSE does not support random writes: save locally, then copy
+            np.savez(LOCAL_CKPT, preds=preds, conf=conf); shutil.copy(LOCAL_CKPT, CKPT); last_ckpt = now
 EVAL_SECONDS = time.time() - t0
 assert (preds >= 0).all()
 
@@ -196,7 +207,7 @@ result = {
     "key": MODEL_KEY, "display": DISPLAY, "run_dir": "dinov3_dora_r16_qproj_valx1",
     "preprocessing": "corrected: inverse ImageNet normalization to [0, 1] as in training" if PREPROCESSING == "corrected"
                      else "legacy (normalized input, as in the original evaluation)",
-    "autocast_fp16": USE_AUTOCAST, "n": int(cm.sum()), "accuracy": acc, "per_source_accuracy": per_source,
+    "autocast_fp16": USE_AUTOCAST, "adapters_merged": MERGED, "n": int(cm.sum()), "accuracy": acc, "per_source_accuracy": per_source,
     "macro_f1": float(f1_score(trues, preds, average="macro")), "weighted_f1": float(f1_score(trues, preds, average="weighted")),
     "matrix": cm.tolist(), "labels": LABELS, "original_reported_accuracy": ORIGINAL_ACCURACY, "comparison": comparison,
     "inference_seconds": EVAL_SECONDS, "model_load_seconds": LOAD_SECONDS, "crops_per_second": len(todo) / EVAL_SECONDS,

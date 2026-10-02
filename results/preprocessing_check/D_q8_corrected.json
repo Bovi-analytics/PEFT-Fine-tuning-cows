@@ -1,0 +1,150 @@
+{
+ "key": "D_q8",
+ "display": "DoRA, q_proj, r = 8",
+ "run_dir": "dinov3_dora_r8_valx1",
+ "preprocessing": "corrected: inverse ImageNet normalization to [0, 1] as in training",
+ "autocast_fp16": true,
+ "n": 2000,
+ "accuracy": 0.8235,
+ "per_source_accuracy": {
+  "mmcows": 0.8243311458859162,
+  "playbehavior": 0.7368421052631579
+ },
+ "macro_f1": 0.6752967348374876,
+ "weighted_f1": 0.828794811515446,
+ "matrix": [
+  [
+   21,
+   0,
+   1,
+   0,
+   5,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   149,
+   51,
+   0,
+   71,
+   19,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   10,
+   104,
+   0,
+   43,
+   19,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   765,
+   9,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   24,
+   7,
+   8,
+   11,
+   569,
+   56,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   12,
+   25,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   5,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   7
+  ]
+ ],
+ "labels": [
+  "Drinking",
+  "Feeding head down",
+  "Feeding head up",
+  "Lying",
+  "Standing",
+  "Walking",
+  "frontal_pushing",
+  "gallop",
+  "leap"
+ ],
+ "original_reported_accuracy": 0.8153,
+ "comparison": {
+  "agreement_with_original": 0.9605,
+  "original_accuracy_same_crops": 0.8225,
+  "changed_predictions": 79
+ },
+ "inference_seconds": 291.9303517341614,
+ "model_load_seconds": 204.8216073513031,
+ "crops_per_second": 6.850949166879526,
+ "batch_size": 16,
+ "num_workers": 4,
+ "peak_gpu_memory_allocated_gb": 4.094168576,
+ "gpu_status_log": [
+  "NVIDIA A10-24Q, 4380, 24512, 99"
+ ],
+ "versions": {
+  "torch": "2.7.0+cu126",
+  "transformers": "4.57.1",
+  "peft": "0.13.2",
+  "bitsandbytes": "0.48.0"
+ },
+ "started_utc": "2026-10-01T21:51:53.792134Z",
+ "finished_utc": "2026-10-01T22:00:23.141598Z"
+}

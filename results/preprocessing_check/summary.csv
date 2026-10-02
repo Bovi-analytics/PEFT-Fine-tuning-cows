@@ -1,0 +1,5 @@
+model_key,model,mode,n,accuracy,original_accuracy_same_crops,agreement_with_original,changed_predictions,input_scaling,fp16_autocast,ran_concurrently_on_same_gpu,crops_per_second,peak_gpu_memory_allocated_gb,gpu,torch,peft,bitsandbytes,finished_utc
+Q_a64,"QLoRA, all-linear, r = 64",legacy,2000,82.85,82.9,99.9,2,ImageNet-normalized (as in the original evaluation),True,True,4.84,5.32,NVIDIA A10 (24 GB),2.7.0+cu126,0.13.2,0.48.0,2026-10-02T00:18:23.241437Z
+Q_a64,"QLoRA, all-linear, r = 64",corrected,2000,83.25,82.9,97.2,56,"[0, 1] (as in training and validation)",True,False,7.07,5.53,NVIDIA A10 (24 GB),2.7.0+cu126,0.13.2,0.48.0,2026-10-02T00:10:10.757951Z
+D_q8,"DoRA, q_proj, r = 8",legacy,2000,82.3,82.25,99.95,1,ImageNet-normalized (as in the original evaluation),False,True,4.88,4.77,NVIDIA A10 (24 GB),2.7.0+cu126,0.13.2,0.48.0,2026-10-02T00:18:14.133278Z
+D_q8,"DoRA, q_proj, r = 8",corrected,2000,82.35,82.25,96.05,79,"[0, 1] (as in training and validation)",True,False,6.85,4.09,NVIDIA A10 (24 GB),2.7.0+cu126,0.13.2,0.48.0,2026-10-01T22:00:23.141598Z

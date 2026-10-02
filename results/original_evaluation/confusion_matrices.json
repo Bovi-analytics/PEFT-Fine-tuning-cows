@@ -1,5 +1,5 @@
 {
- "description": "Test-set confusion matrices of the original evaluation (rows: annotated behavior, columns: prediction; 211,800 crops). For the eight QLoRA/DoRA models the test crops were ImageNet-normalized while the models had been trained and validated on inputs rescaled to [0, 1]; see results/corrected_evaluation.",
+ "description": "Test-set confusion matrices of the original evaluation (rows: annotated behavior, columns: prediction; 211,800 crops). For the eight QLoRA/DoRA models the test crops were ImageNet-normalized while the models had been trained and validated on inputs rescaled to [0, 1]; see results/preprocessing_check and the README.",
  "labels_source": [
   "Drinking",
   "Feeding head down",
