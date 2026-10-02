@@ -45,9 +45,9 @@ PEFT-Fine-tuning-cows/
 | Source | Behaviors | Licence | Access |
 |---|---|---|---|
 | [MmCows](https://github.com/neis-lab/mmcows) (Vu et al., NeurIPS 2024 Datasets and Benchmarks) | drinking, eating head down, eating head up, lying, standing, walking | CC BY-NC-SA 4.0 ([Hugging Face release](https://huggingface.co/datasets/neis-lab/mmcows)) | public |
-| PlayBehavior (Yang et al., arXiv:2602.00111) | frontal pushing, gallop, leap | — | crops available from the corresponding author on reasonable request |
+| PlayBehavior (Yang et al., arXiv:2602.00111) | frontal pushing, gallop, leap | CC0 1.0 ([Hugging Face release](https://huggingface.co/datasets/Sonam5/Calf-Play-Behavior-Dataset), doi:10.57967/hf/10695) | public for the two farms that supplied 2,528 of the 2,819 calf crops; the 291 crops from two other farms on reasonable request |
 
-`data/splits` lists every crop with its split, behavior, source label, animal, camera and (for MmCows) Unix timestamp, so the MmCows crops can be regenerated from the public frames and bounding boxes. PlayBehavior rows are pseudonymized: farm codes, calf ear-tag numbers, recording dates and times are replaced by `site_k`, `site_k_calf_n` and random crop identifiers. The split is the stratified 80/20 split of the 2,700 verified crops with `random_state=42` used in all notebooks. See [`data/README.md`](data/README.md).
+`data/splits` lists every crop with its split, behavior, source label, animal and camera. MmCows rows give the Unix timestamp, so the crops can be regenerated from the public frames and bounding boxes. PlayBehavior rows from the two released farms give the farm, calf, session, frame and shard of the public calf dataset. Rows from the two unreleased farms are pseudonymized (`unreleased_farm_k`, `unreleased_farm_k_calf_n`; no dates or times). The split is the stratified 80/20 split of the 2,700 verified crops with `random_state=42` used in all notebooks. See [`data/README.md`](data/README.md).
 
 ## Reproducing the results
 
